@@ -380,7 +380,7 @@ class Janitor(object):
 
         cleaning_results = []
 
-        VIDEO_TYPES_TO_CLEAN = ()
+        VIDEO_TYPES_TO_CLEAN = []
         if get_value(clean_tv_shows):
             VIDEO_TYPES_TO_CLEAN.append(TVSHOWS)
         if get_value(clean_music_videos):
